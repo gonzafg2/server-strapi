@@ -26,6 +26,12 @@
     "styled-components": "5.3.3",
     "video-react": "^0.16.0"
   },
+  "overrides": {
+    "handlebars": "4.7.9",
+    "form-data": "4.0.5",
+    "elliptic": "6.6.1",
+    "koa": ">=2.15.4 <3"
+  },
   "author": {
     "name": "A Strapi developer"
   },
@@ -34,7 +40,7 @@
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
-    "npm": ">=6.0.0"
+    "npm": ">=8.0.0"
   },
   "license": "MIT",
   "devDependencies": {
